@@ -88,6 +88,18 @@ export const skillCategories = [
 export const projects = [
   // ---------- PROJETS VEDETTES ----------
   {
+    title: "Yat'Print",
+    category: "E-commerce full-stack",
+    context: "Site pour Yat'Print · 2026",
+    description:
+      "Boutique en ligne d'une entreprise de personnalisation de vêtements et d'objets : atelier avec aperçu en direct et téléversement de design, panier avec taxes par province, paiement Stripe et suivi de commande. Espace admin avec tableau de bord des ventes, export CSV des commandes et réglages modifiables sans code. Validation Zod, limitation de débit et 68 tests Vitest.",
+    tags: ["Next.js 16", "Tailwind", "Prisma", "PostgreSQL", "Stripe", "Auth.js", "Zod", "Vitest"],
+    diagram: ["Next.js", "Stripe", "PostgreSQL"],
+    featured: true,
+    demo: "",
+    code: "https://github.com/kevintiam/yatPrint",
+  },
+  {
     title: "SkillMap",
     category: "Intelligence artificielle",
     context: "Défi Informatique La Cité 2026 · équipe de 5",
